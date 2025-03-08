@@ -6,7 +6,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     
     if (email === "p@gmail.com" && password === "p") {
         alert("Login Berhasil!");
-        window.location.href = "profil.html"; // Arahkan ke halaman lain
+        window.location.href = "index.html"; // Arahkan ke halaman lain
     } else {
         alert("Email atau Password salah!");
     }
